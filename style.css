@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gloock', serif;
+}
+body{
+    background-color: rgb(49, 0, 128);
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color: azure;
+    font-size: 45px;
+    font-weight: 950;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.heading h3{
+    color: azure ;
+    font-weight: 790;
+    letter-spacing: 2px;
+}
+.searchbar{
+    margin: 1rem 0;
+    width: 450px;
+    height: 40px;
+    border: navy;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+}
+.container{
+    width: 70%;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.card{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card img{
+    width: 67%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card2{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card2 img{
+    width: 50%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card3{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card3 img{
+    width: 60%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card4{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card4 img{
+    width: 63%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card5{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card5 img{
+    width: 50%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card6{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card6 img{
+    width: 50%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card7{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card7 img{
+    width: 75%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card8{
+    width: 180px;
+    border-radius: 180rem;
+    background-color: yellow;
+    padding: 5px;
+}
+.card8 img{
+    width: 66%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card h3{
+    color: black;
+    font-size: 20px;
+}
+.card link{
+    color: aliceblue;
+}
+.btn{
+    width: 150px;
+}
